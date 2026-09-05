@@ -319,7 +319,7 @@ Opening or closing the filter panel does not change the selected filter values.
 
 ---
 
-# Reset Filters
+## Reset Filters
 
 The Executive Overview filter panel includes a **Reset Filters** button.
 
@@ -329,7 +329,7 @@ Because the slicers are synchronized, resetting the filters also resets their se
 
 ---
 
-# Clear Visuals
+## Clear Visuals
 
 Each main report page includes a **Clear Visuals** button.
 
@@ -339,7 +339,7 @@ For example, clicking a chart bar may cause other visuals on the page to become 
 
 Clicking **Clear Visuals** restores those visual selections to their normal state.
 
-## Important
+### Important
 
 **Clear Visuals does not remove the synchronized universal filters.**
 
@@ -356,13 +356,13 @@ This keeps report-wide filtering separate from temporary visual interactions.
 
 ---
 
-# Field Parameter Controls
+## Field Parameter Controls
 
 Several report pages contain a **View by** control.
 
 Power BI field parameters allow the user to dynamically change the analytical dimension displayed in a visual without requiring multiple separate charts.
 
-## Attrition Analysis
+### Attrition Analysis
 
 Users can switch between:
 
@@ -371,14 +371,14 @@ Users can switch between:
 - Tenure Group
 - Business Travel
 
-## Performance Analysis
+### Performance Analysis
 
 Users can switch between:
 
 - Department
 - Job Level Bucket
 
-## Pay Analysis
+### Pay Analysis
 
 Users can switch between:
 
@@ -390,15 +390,13 @@ This provides several analytical perspectives while keeping the report compact.
 
 ---
 
-# Drill-Through Analysis
+## Drill-Through Analysis
 
 The Performance Analytics and Pay & Compensation pages include dedicated drill-through arrow buttons.
 
 These allow the user to move from aggregated analysis to employee-level detail.
 
----
-
-## Performance Drill-Through
+### Performance Drill-Through
 
 To use the Performance drill-through:
 
@@ -435,7 +433,7 @@ The Performance Detail table includes:
 
 ---
 
-## Pay Drill-Through
+### Pay Drill-Through
 
 To use the Pay drill-through:
 
@@ -471,7 +469,7 @@ Both drill-through pages include a back button that returns the user to the prev
 
 ---
 
-# HR Snapshot Tooltip
+## HR Snapshot Tooltip
 
 Selected report visuals use a custom report-page tooltip called **HR Snapshot**.
 
@@ -590,9 +588,9 @@ Supports workforce experience and retention analysis across different employee s
 
 ---
 
-# Attrition Measures
+## Attrition Measures
 
-## Employees Left
+### Employees Left
 
 ```DAX
 Employees Left =
@@ -610,7 +608,7 @@ Provides the absolute number of employees who left and forms the numerator of th
 
 ---
 
-## Attrition Rate
+### Attrition Rate
 
 ```DAX
 Attrition Rate =
@@ -637,9 +635,9 @@ Attrition Rate enables fairer comparisons between:
 
 ---
 
-# Performance & Employee Experience Measures
+## Performance & Employee Experience Measures
 
-## Average Performance Rating
+### Average Performance Rating
 
 ```DAX
 Average Performance Rating =
@@ -654,7 +652,7 @@ Allows performance levels to be compared across workforce segments.
 
 ---
 
-## Average Job Satisfaction
+### Average Job Satisfaction
 
 ```DAX
 Average Job Satisfaction =
@@ -669,7 +667,7 @@ Provides an employee-experience indicator that can be compared with attrition an
 
 ---
 
-## Average Environment Satisfaction
+### Average Environment Satisfaction
 
 ```DAX
 Average Environment Satisfaction =
@@ -684,7 +682,7 @@ Provides an additional employee-experience dimension for workforce comparison.
 
 ---
 
-## Average Job Involvement
+### Average Job Involvement
 
 ```DAX
 Average Job Involvement =
@@ -699,7 +697,7 @@ Supports analysis of how involved employees are with their work across workforce
 
 ---
 
-## Average Work-Life Balance
+### Average Work-Life Balance
 
 ```DAX
 Average Work-Life Balance =
@@ -714,7 +712,7 @@ Provides additional context when examining overtime, employee experience, and at
 
 ---
 
-## Average Training Frequency
+### Average Training Frequency
 
 ```DAX
 Average Training Frequency =
@@ -729,9 +727,9 @@ Provides an indicator of employee development activity.
 
 ---
 
-# Compensation Measures
+## Compensation Measures
 
-## Average Monthly Income
+### Average Monthly Income
 
 ```DAX
 Average Monthly Income =
@@ -754,7 +752,7 @@ It enables comparisons by:
 
 ---
 
-## Median Monthly Income
+### Median Monthly Income
 
 ```DAX
 Median Monthly Income =
@@ -773,7 +771,7 @@ Using both average and median creates a more complete compensation picture.
 
 ---
 
-## Average Salary Increase %
+### Average Salary Increase %
 
 ```DAX
 Average Salary Increase % =
@@ -791,7 +789,7 @@ Allows salary growth to be compared across workforce segments.
 
 ---
 
-## Average Income - Leavers
+### Average Income - Leavers
 
 ```DAX
 Average Income - Leavers =
@@ -811,7 +809,7 @@ The comparison is descriptive and should not be interpreted as evidence that com
 
 ---
 
-## Average Income - Retained
+### Average Income - Retained
 
 ```DAX
 Average Income - Retained =
@@ -832,8 +830,6 @@ Provides a direct comparison with Average Income - Leavers.
 # Calculated Analytical Fields
 
 Several calculated fields were created to improve the analytical usability of the dataset.
-
----
 
 ## Job Level Bucket
 
